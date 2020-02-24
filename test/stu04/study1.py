@@ -6,3 +6,5 @@ with tf.device("gpu"):
     b=tf.range(4)
 print(a.device)
 print(b.device)
+
+print(tf.test.is_gpu_available())

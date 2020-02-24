@@ -18,5 +18,7 @@ print(a2.shape)
 
 # 2,1,1 指代各维度复制的倍数
 a2 = tf.tile(a2,[2,1,1])
-
+print(a2.shape)
+print("----------------")
+print(tf.version.VERSION)
 

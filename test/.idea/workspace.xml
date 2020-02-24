@@ -1,26 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f4b9c88-4d0e-4957-822d-81d0aa0071c1" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="4f4b9c88-4d0e-4957-822d-81d0aa0071c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre/testPing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu04/stu09calculate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu04/stu10forward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu01concat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu02tongji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu03sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu04tianchong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu05fuzhi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu06zhangliang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/stu09meshgrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu05/topKAccurance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu06/forward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu06/mnist_tensor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu06/stu00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu06/stu01mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu06/stu02cifar10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu06/stu03fashionmnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu07/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu07/stu01fullconnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu07/stu02output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu07/stu03costfun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu02sigmoid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu03tanh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu04relu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu05MSEgradient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu06crossentroyGradient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu07singleoutput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu08multioutput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu09chainrule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu10funyouhua.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu11fashionmnist_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu08/stu12keshihua.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu09/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu09/compile_fit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu09/layer_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu09/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu09/save_load_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu09/save_load_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu09/stu01shizhan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/stu01_train_val_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/stu02regularization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/stu03momentum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/stu04adaptivelearningrate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/stu05earlystoping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/stu06dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu10/stu07StochasticGradientDescent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/stu01layerConv2D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/stu02weighanfbias.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/stu03pooling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/stu04upsampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/stu05relu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/stu06cifar100shizhan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu11/stu07batchnorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu12/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu12/stu01basicblock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu12/stu02resnetshizhan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu12/stu03resnet18train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/sentiment_analysis_cell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/sentiment_analysis_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu01embeddinglayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu02RNNcell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu03multiRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu04RNNshizhan_Simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu05RNNshizhan_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu06GradientClipping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu07LSTMshizhan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu08LSTMshizhan_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu09GRU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu13/stu09GRU_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu14/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu14/stu01AutoEncoders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu14/vae.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/stu01gan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/stu02gan_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/stu03gan_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/stu04w_gan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/stu05w_gan_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/stu06w_gan_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stu15/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu04/stu04Index.py" beforeDir="false" afterPath="$PROJECT_DIR$/stu04/stu04Index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu04/stu08Broadcasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/stu04/stu08Broadcasting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu04/study1.py" beforeDir="false" afterPath="$PROJECT_DIR$/stu04/study1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="test" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VqD9Z806JDX3IUNcxNrGiHqsPM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stu15" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -32,28 +157,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\stuCode\tensorflow\test" />
-      <recent name="E:\stuCode\tensorflow\test\lesssion3" />
+      <recent name="E:\stuCode\tensorflow\test\stu15" />
+      <recent name="E:\stuCode\tensorflow\test\stu13" />
+      <recent name="E:\stuCode\tensorflow\test\stu09" />
+      <recent name="E:\stuCode\tensorflow\test\stu08" />
+      <recent name="E:\stuCode\tensorflow\test\stu07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\stuCode\tensorflow\test\stu11" />
       <recent name="E:\stuCode\tensorflow\test\pre" />
       <recent name="E:\stuCode\tensorflow\test" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.stu07Reshape">
-    <configuration name="stu04Index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.stu05w_gan_train">
+    <configuration name="stu01gan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,12 +178,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu04/stu04Index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu15/stu01gan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stu02gan_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu15/stu02gan_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stu03gan_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu15/stu03gan_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stu06Selective" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stu05w_gan_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,12 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu04/stu06Selective.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu15/stu05w_gan_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stu07Reshape" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,12 +288,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu04/stu07Reshape.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu15/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,59 +302,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="study03Loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu04/study03Loss.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="study2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stu04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stu04/study2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.stu04Vector" />
+      <item itemvalue="Python.stu01gan" />
+      <item itemvalue="Python.stu02gan_train" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.stu03gan_test" />
+      <item itemvalue="Python.stu05w_gan_train" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.stu07Reshape" />
-        <item itemvalue="Python.stu06Selective" />
-        <item itemvalue="Python.stu04Index" />
-        <item itemvalue="Python.study03Loss" />
-        <item itemvalue="Python.study2" />
+        <item itemvalue="Python.stu05w_gan_train" />
+        <item itemvalue="Python.stu03gan_test" />
+        <item itemvalue="Python.stu02gan_train" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.stu01gan" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -211,12 +348,121 @@
       <workItem from="1578033636702" duration="8499000" />
       <workItem from="1578360068339" duration="13883000" />
       <workItem from="1578485193747" duration="3420000" />
-      <workItem from="1578538777573" duration="2148000" />
+      <workItem from="1578538777573" duration="4035000" />
+      <workItem from="1578638347667" duration="4082000" />
+      <workItem from="1578878178887" duration="5027000" />
+      <workItem from="1578883998471" duration="578000" />
+      <workItem from="1578884962605" duration="10558000" />
+      <workItem from="1578967803653" duration="13891000" />
+      <workItem from="1580275980901" duration="9740000" />
+      <workItem from="1580361567613" duration="6496000" />
+      <workItem from="1580470549488" duration="3775000" />
+      <workItem from="1580616025908" duration="12510000" />
+      <workItem from="1580698366932" duration="2025000" />
+      <workItem from="1580814813784" duration="2937000" />
+      <workItem from="1580870840102" duration="9275000" />
+      <workItem from="1580903438940" duration="2201000" />
+      <workItem from="1580959949356" duration="10671000" />
+      <workItem from="1580984241468" duration="4497000" />
+      <workItem from="1581043736970" duration="6942000" />
+      <workItem from="1581128971363" duration="9063000" />
+      <workItem from="1581235560147" duration="6873000" />
+      <workItem from="1581306685982" duration="9959000" />
+      <workItem from="1581396644275" duration="1988000" />
+      <workItem from="1581480513595" duration="11642000" />
+      <workItem from="1581565800187" duration="1005000" />
+      <workItem from="1581570203152" duration="10902000" />
+      <workItem from="1581650652293" duration="6067000" />
+      <workItem from="1581746837513" duration="10477000" />
+      <workItem from="1581821113528" duration="14108000" />
+      <workItem from="1581905985580" duration="16242000" />
+      <workItem from="1581995341027" duration="9682000" />
+      <workItem from="1582076117325" duration="623000" />
+      <workItem from="1582092621447" duration="2244000" />
+      <workItem from="1582172151970" duration="9901000" />
+      <workItem from="1582255765682" duration="8817000" />
+      <workItem from="1582344702250" duration="1192000" />
+      <workItem from="1582441484283" duration="21726000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578898927550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578898927550" />
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1581858663177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1581858663177" />
+    <state width="809" height="466" key="DebuggerActiveHint" timestamp="1581858560258">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="809" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1581858560258" />
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1582512249882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582512249882" />
+    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1582512249882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582512249882" />
+    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1582512249882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582512249882" />
+    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1582512249882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582512249882" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581863634918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581863634918" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581863634918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581863634918" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581863634918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581863634918" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581863634918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581863634918" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1581243428837">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581243428837" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1582443854123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582443854123" />
+    <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1582511672527">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="11" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582511672527" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582256238397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582256238397" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,23 +470,94 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/stu04/study1.py</url>
           <line>3</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test$stu04Index.coverage" NAME="stu04Index Coverage Results" MODIFIED="1578384568266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
-    <SUITE FILE_PATH="coverage/test$liner_regression__1_.coverage" NAME="liner_regression (1) Coverage Results" MODIFIED="1578020860432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test$main.coverage" NAME="main Coverage Results" MODIFIED="1578034123846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/studyVideo/深度学习与TensorFlow 2入门实战（完整版）/TensorFlow-2.x-Tutorials-master/深度学习与TensorFlow入门实战-源码和PPT/lesson06-手写数字识别初体验" />
+    <SUITE FILE_PATH="coverage/test$stu01layerConv2D.coverage" NAME="stu01layerConv2D Coverage Results" MODIFIED="1582448961810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu11" />
+    <SUITE FILE_PATH="coverage/test$stu04RNNshizhan_Simple.coverage" NAME="stu04RNNshizhan_Simple Coverage Results" MODIFIED="1581941311138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$stu10funyouhua.coverage" NAME="stu10funyouhua Coverage Results" MODIFIED="1581243434411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu05relu.coverage" NAME="stu05relu Coverage Results" MODIFIED="1581675093890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu11" />
     <SUITE FILE_PATH="coverage/test$stu04Vector.coverage" NAME="stu04Vector Coverage Results" MODIFIED="1578381462342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
-    <SUITE FILE_PATH="coverage/test$stu07Reshape.coverage" NAME="stu07Reshape Coverage Results" MODIFIED="1578539166198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
-    <SUITE FILE_PATH="coverage/test$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1578035350975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre" />
-    <SUITE FILE_PATH="coverage/test$study2.coverage" NAME="study2 Coverage Results" MODIFIED="1578043310615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
-    <SUITE FILE_PATH="coverage/test$study03Loss.coverage" NAME="study03Loss Coverage Results" MODIFIED="1578364534049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu09GRU_layer.coverage" NAME="stu09GRU_layer Coverage Results" MODIFIED="1582020349212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$stu01gan.coverage" NAME="stu01gan Coverage Results" MODIFIED="1582453221727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu15" />
+    <SUITE FILE_PATH="coverage/test$stu01shizhan.coverage" NAME="stu01shizhan Coverage Results" MODIFIED="1581500865639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu09" />
+    <SUITE FILE_PATH="coverage/test$stu01AutoEncoders.coverage" NAME="stu01AutoEncoders Coverage Results" MODIFIED="1582203984134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu14" />
+    <SUITE FILE_PATH="coverage/test$stu01.coverage" NAME="stu01 Coverage Results" MODIFIED="1581045164770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu03gan_test.coverage" NAME="stu03gan_test Coverage Results" MODIFIED="1582509294504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu15" />
+    <SUITE FILE_PATH="coverage/test$stu07batchnorm.coverage" NAME="stu07batchnorm Coverage Results" MODIFIED="1581762285172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu11" />
+    <SUITE FILE_PATH="coverage/test$stu04Index.coverage" NAME="stu04Index Coverage Results" MODIFIED="1578384568266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu03sort.coverage" NAME="stu03sort Coverage Results" MODIFIED="1580285810975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$stu02tongji.coverage" NAME="stu02tongji Coverage Results" MODIFIED="1578992280356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$vae.coverage" NAME="vae Coverage Results" MODIFIED="1582263259534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu14" />
+    <SUITE FILE_PATH="coverage/test$testPing.coverage" NAME="testPing Coverage Results" MODIFIED="1580636488640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre" />
+    <SUITE FILE_PATH="coverage/test$stu05fuzhi.coverage" NAME="stu05fuzhi Coverage Results" MODIFIED="1580364821422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$stu09chainrule.coverage" NAME="stu09chainrule Coverage Results" MODIFIED="1581159678615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$keras_train.coverage" NAME="keras_train Coverage Results" MODIFIED="1581500097122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/studyVideo/深度学习与TensorFlow 2入门实战（完整版）/TensorFlow-2.x-Tutorials-master/深度学习与TensorFlow入门实战-源码和PPT/lesson32-Keras实战" />
+    <SUITE FILE_PATH="coverage/test$stu12keshihua.coverage" NAME="stu12keshihua Coverage Results" MODIFIED="1581324178399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$vae__1_.coverage" NAME="vae (1) Coverage Results" MODIFIED="1582261310930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/studyVideo/深度学习与TensorFlow 2入门实战（完整版）/TensorFlow-2.x-Tutorials-master/深度学习与TensorFlow入门实战-源码和PPT/lesson49-VAE实战" />
+    <SUITE FILE_PATH="coverage/test$test.coverage" NAME="test Coverage Results" MODIFIED="1582460495357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu15" />
+    <SUITE FILE_PATH="coverage/test$stu03pooling.coverage" NAME="stu03pooling Coverage Results" MODIFIED="1581854497552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu11" />
+    <SUITE FILE_PATH="coverage/test$stu02output.coverage" NAME="stu02output Coverage Results" MODIFIED="1580966876927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu07" />
+    <SUITE FILE_PATH="coverage/test$stu09GRU.coverage" NAME="stu09GRU Coverage Results" MODIFIED="1582020197734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$stu06crossentroyGradient.coverage" NAME="stu06crossentroyGradient Coverage Results" MODIFIED="1581136894781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu10forward__1_.coverage" NAME="stu10forward (1) Coverage Results" MODIFIED="1578898853553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$stu01concat.coverage" NAME="stu01concat Coverage Results" MODIFIED="1581581410927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
     <SUITE FILE_PATH="coverage/test$stu06Selective.coverage" NAME="stu06Selective Coverage Results" MODIFIED="1578387017859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
-    <SUITE FILE_PATH="coverage/test$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1577973255154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$stu02sigmoid.coverage" NAME="stu02sigmoid Coverage Results" MODIFIED="1581050039267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu01fullconnect.coverage" NAME="stu01fullconnect Coverage Results" MODIFIED="1580964625809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu07" />
+    <SUITE FILE_PATH="coverage/test$stu05MSEgradient.coverage" NAME="stu05MSEgradient Coverage Results" MODIFIED="1581129957388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu06zhangliang.coverage" NAME="stu06zhangliang Coverage Results" MODIFIED="1580370906425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1580882177880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre" />
+    <SUITE FILE_PATH="coverage/test$stu02weighanfbias.coverage" NAME="stu02weighanfbias Coverage Results" MODIFIED="1582450018695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu11" />
+    <SUITE FILE_PATH="coverage/test$stu00.coverage" NAME="stu00 Coverage Results" MODIFIED="1580287210938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu06" />
+    <SUITE FILE_PATH="coverage/test$study03Loss.coverage" NAME="study03Loss Coverage Results" MODIFIED="1580276463746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu03costfun.coverage" NAME="stu03costfun Coverage Results" MODIFIED="1582262737333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu07" />
+    <SUITE FILE_PATH="coverage/test$stu02cifar10.coverage" NAME="stu02cifar10 Coverage Results" MODIFIED="1581308350894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu06" />
+    <SUITE FILE_PATH="coverage/test$study2.coverage" NAME="study2 Coverage Results" MODIFIED="1578043310615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu04tianchong.coverage" NAME="stu04tianchong Coverage Results" MODIFIED="1580363907936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$stu07singleoutput.coverage" NAME="stu07singleoutput Coverage Results" MODIFIED="1581140343408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
     <SUITE FILE_PATH="coverage/test$liner_regression.coverage" NAME="liner_regression Coverage Results" MODIFIED="1578017358479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesssion3" />
-    <SUITE FILE_PATH="coverage/test$study1.coverage" NAME="study1 Coverage Results" MODIFIED="1578036566705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu01embeddinglayer.coverage" NAME="stu01embeddinglayer Coverage Results" MODIFIED="1581911049883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$stu04relu.coverage" NAME="stu04relu Coverage Results" MODIFIED="1581059371578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu02multiRNN.coverage" NAME="stu02multiRNN Coverage Results" MODIFIED="1581924834920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$stu05RNNshizhan_layer.coverage" NAME="stu05RNNshizhan_layer Coverage Results" MODIFIED="1581998026321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1578035350975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre" />
+    <SUITE FILE_PATH="coverage/test$stu11fashionmnist_layer.coverage" NAME="stu11fashionmnist_layer Coverage Results" MODIFIED="1581319282392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu04upsampling.coverage" NAME="stu04upsampling Coverage Results" MODIFIED="1581748640549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu11" />
+    <SUITE FILE_PATH="coverage/test$stu09meshgrid.coverage" NAME="stu09meshgrid Coverage Results" MODIFIED="1581240503496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$topKAccurance.coverage" NAME="topKAccurance Coverage Results" MODIFIED="1580288098262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$liner_regression__1_.coverage" NAME="liner_regression (1) Coverage Results" MODIFIED="1578020860432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$stu01datasets.coverage" NAME="stu01datasets Coverage Results" MODIFIED="1580643934422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu06" />
+    <SUITE FILE_PATH="coverage/test$stu08multioutput.coverage" NAME="stu08multioutput Coverage Results" MODIFIED="1581153789435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$stu03resnet18train.coverage" NAME="stu03resnet18train Coverage Results" MODIFIED="1581858965061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu12" />
+    <SUITE FILE_PATH="coverage/test$stu07Reshape.coverage" NAME="stu07Reshape Coverage Results" MODIFIED="1580277816577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu01mnist__1_.coverage" NAME="stu01mnist (1) Coverage Results" MODIFIED="1580646548223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu06" />
+    <SUITE FILE_PATH="coverage/test$layer_model.coverage" NAME="layer_model Coverage Results" MODIFIED="1581497818489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu09" />
+    <SUITE FILE_PATH="coverage/test$main.coverage" NAME="main Coverage Results" MODIFIED="1580616509953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre" />
+    <SUITE FILE_PATH="coverage/test$stu09calculate.coverage" NAME="stu09calculate Coverage Results" MODIFIED="1578880242540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu08Broadcasting.coverage" NAME="stu08Broadcasting Coverage Results" MODIFIED="1580278031501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu10forward.coverage" NAME="stu10forward Coverage Results" MODIFIED="1580882725899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$stu03multiRNN__1_.coverage" NAME="stu03multiRNN (1) Coverage Results" MODIFIED="1581925552106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$stu02RNNcell.coverage" NAME="stu02RNNcell Coverage Results" MODIFIED="1581923275383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu13" />
+    <SUITE FILE_PATH="coverage/test$stu05w_gan_train.coverage" NAME="stu05w_gan_train Coverage Results" MODIFIED="1582512249873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu15" />
+    <SUITE FILE_PATH="coverage/test$stu02gan_train.coverage" NAME="stu02gan_train Coverage Results" MODIFIED="1582462418343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu15" />
+    <SUITE FILE_PATH="coverage/test$stu06cifar100shizhan.coverage" NAME="stu06cifar100shizhan Coverage Results" MODIFIED="1581755345405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu11" />
+    <SUITE FILE_PATH="coverage/test$gan.coverage" NAME="gan Coverage Results" MODIFIED="1582452298914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/studyVideo/深度学习与TensorFlow 2入门实战（完整版）/TensorFlow-2.x-Tutorials-master/深度学习与TensorFlow入门实战-源码和PPT/lesson51-WGAN实战" />
+    <SUITE FILE_PATH="coverage/test$study1.coverage" NAME="study1 Coverage Results" MODIFIED="1578902549603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu04" />
+    <SUITE FILE_PATH="coverage/test$himmelblau.coverage" NAME="himmelblau Coverage Results" MODIFIED="1581243115894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/studyVideo/深度学习与TensorFlow 2入门实战（完整版）/TensorFlow-2.x-Tutorials-master/深度学习与TensorFlow入门实战-源码和PPT/lesson26-优化方法" />
+    <SUITE FILE_PATH="coverage/test$stu08.coverage" NAME="stu08 Coverage Results" MODIFIED="1580629019282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu05" />
+    <SUITE FILE_PATH="coverage/test$stu03fashionmnist.coverage" NAME="stu03fashionmnist Coverage Results" MODIFIED="1580873568692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu06" />
+    <SUITE FILE_PATH="coverage/test$stu03tanh.coverage" NAME="stu03tanh Coverage Results" MODIFIED="1581050437968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stu08" />
+    <SUITE FILE_PATH="coverage/test$sentiment_analysis_cell.coverage" NAME="sentiment_analysis_cell Coverage Results" MODIFIED="1581933491702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/studyVideo/深度学习与TensorFlow 2入门实战（完整版）/TensorFlow-2.x-Tutorials-master/深度学习与TensorFlow入门实战-源码和PPT/lesson45-RNN实战" />
   </component>
 </project>
