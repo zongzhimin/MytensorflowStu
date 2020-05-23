@@ -12,4 +12,7 @@ print(a*b)
 
 c = tf.constant([[1,2,3],[4,5,6],[7,8,9]])
 print(c[:2])
+print(c)
 print(tf.argmax(c,axis=1))
+
+print(tf.__version__)

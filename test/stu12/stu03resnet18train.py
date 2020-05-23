@@ -22,7 +22,7 @@ train_db = train_db.map(preprocess).shuffle(10000).batch(64)
 test_db = tf.data.Dataset.from_tensor_slices((x_test,y_test))
 test_db = test_db.map(preprocess).batch(64)
 
-sample = next(iter(train_db))
+sample = next(iter(M))
 print('sample :',sample[0].shape,sample[1].shape,tf.reduce_mean(sample[0]),tf.reduce_max(sample[0]))
 
 

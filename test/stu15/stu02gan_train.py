@@ -128,7 +128,7 @@ def main():
         if epoch % 1000 == 0:
             print(epoch, 'd_loss:', float(d_loss), 'g_loss', float(g_loss))
 
-            z = tf.random.uniform([100, z_dim])
+            z = tf.random.uniform([100, z_dim], minval=-1., maxval=1.)
             fake_image = generator(z, training=False)
             img_path = r'E:\stuCode\testData\test4\gan-%d.png' % epoch
             save_result(fake_image.numpy(), 10, img_path, color_mode='P')

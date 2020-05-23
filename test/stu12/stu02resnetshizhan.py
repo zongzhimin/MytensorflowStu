@@ -2,8 +2,8 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, Sequential, Model
 
-# resnet 针对深度学习多层网络 加一个"短路"功能
 
+# resnet 针对深度学习多层网络 加一个"短路"功能
 
 
 class BasicBlock(layers.Layer):
@@ -79,10 +79,10 @@ class ResNet(Model):
             res_blocks.add(BasicBlock(filter_num, stride=1))
         return res_blocks
 
+
 def resnet18():
-    return ResNet([2,2,2,2])
+    return ResNet([2, 2, 2, 2])
+
 
 def resnet34():
-    return ResNet([3,4,6,3])
-
-
+    return ResNet([3, 4, 6, 3])

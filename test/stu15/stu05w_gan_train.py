@@ -105,7 +105,7 @@ def main():
     z_dim = 100
     epochs = 3000000
     batch_size = 512
-    learning_rate = 0.002
+    learning_rate = 0.0001
     is_training = True
 
     img_path = glob.glob(r'E:\stuCode\testData\faces\*.jpg')
@@ -124,8 +124,8 @@ def main():
     g_optimezer = optimizers.Adam(learning_rate=learning_rate, beta_1=0.5)
     d_optimezer = optimizers.Adam(learning_rate=learning_rate, beta_1=0.5)
 
-    # discriminator.load_weights(r'E:\stuCode\testData\w_gan_weights\d_weights.ckpt')
-    # generator.load_weights(r'E:\stuCode\testData\w_gan_weights\g_weights.ckpt')
+    discriminator.load_weights(r'E:\stuCode\testData\w_gan_weights\d_weights.ckpt')
+    generator.load_weights(r'E:\stuCode\testData\w_gan_weights\g_weights.ckpt')
 
     for epoch in range(epochs):
         batch_z = tf.random.uniform([batch_size, z_dim], minval=-1., maxval=1.)
@@ -142,16 +142,17 @@ def main():
         grads = tape.gradient(g_loss, generator.trainable_variables)
         g_optimezer.apply_gradients(zip(grads, generator.trainable_variables))
 
-        if epoch % 100 == 0:
+        if epoch % 1000 == 0:
             print(epoch, 'd_loss:', float(d_loss), 'g_loss', float(g_loss),'gp:',float(gp))
 
             z = tf.random.uniform([100, z_dim], minval=-1., maxval=1.)
             fake_image = generator(z, training=False)
             img_path = r'E:\stuCode\testData\w_gan_test1\wgan-%d.png' % epoch
             save_result(fake_image.numpy(), 10, img_path, color_mode='P')
-            # discriminator.save_weights(r'E:\stuCode\testData\w_gan_weights\d_weights.ckpt')
-            # generator.save_weights(r'E:\stuCode\testData\w_gan_weights\g_weights.ckpt')
+            discriminator.save_weights(r'E:\stuCode\testData\w_gan_weights\d_weights.ckpt')
+            generator.save_weights(r'E:\stuCode\testData\w_gan_weights\g_weights.ckpt')
 
 
 if __name__ == '__main__':
     main()
+

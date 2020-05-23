@@ -34,4 +34,3 @@ class BasicBlock(layers.Layer):
         out = self.relu(add)
         return out
 
-

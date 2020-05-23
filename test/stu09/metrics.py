@@ -56,6 +56,8 @@ for step, (x,y) in enumerate(db):
  
 
     grads = tape.gradient(loss, network.trainable_variables)
+    print(grads)
+    print(network.trainable_variables)
     optimizer.apply_gradients(zip(grads, network.trainable_variables))
 
 

@@ -7,7 +7,7 @@ pool = layers.MaxPool2D(2,strides=2)
 out = pool(x)
 print(out.shape)
 
-pool = layers.MaxPool2D(pool_size=(2,2),strides=(1,1),padding='same')
+pool = layers.MaxPool2D(MaxPool2D=(2,2),strides=(1,1),padding='same')
 out = pool(x)
 print(out.shape)
 

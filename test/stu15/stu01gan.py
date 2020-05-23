@@ -9,7 +9,7 @@ class Generator(Model):
         # z [b,100] => [b,3*3*512] => [b,3,3,512] => [b,64,64,3]
         self.fc = layers.Dense(3 * 3 * 512)
 
-        self.conv1 = layers.Conv2DTranspose(256, 3, 3, 'valid')
+        self.conv1 = layers.Conv2DTranspose(256, 3, 3, 'valid')  # 反卷积，上采样
         self.bn1 = layers.BatchNormalization()
 
         self.conv2 = layers.Conv2DTranspose(128, 5, 2, 'valid')
